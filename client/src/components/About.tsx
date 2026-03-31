@@ -7,7 +7,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Shield, Award, Clock, Users } from "lucide-react";
 
-const TEAM_IMG = "/images/IMG_4197.jpg";
+const TEAM_IMG = "/images/Coverphoto.jpg";
 
 const values = [
   {
