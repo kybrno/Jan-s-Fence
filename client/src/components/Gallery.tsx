@@ -166,7 +166,7 @@ export default function Gallery() {
             </button>
           )}
           <p className="font-body text-stone-400 text-sm">
-            Click any photo to enlarge &nbsp;·&nbsp; 1,200+ projects completed
+            Click any photo to enlarge &nbsp;·&nbsp; 500+ projects completed
           </p>
         </div>
       </div>
