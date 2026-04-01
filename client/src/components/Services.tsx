@@ -203,7 +203,7 @@ export default function Services() {
           <p className="font-body text-stone-500 mb-4">Ready to get started?</p>
           <a
             href="tel:617-953-9487"
-            className="btn-rust px-8 py-3.5 rounded font-semibold font-body inline-block"
+            className="btn-forest px-8 py-3.5 rounded font-semibold font-body inline-block"
           >
             OR Call Us Now
           </a>

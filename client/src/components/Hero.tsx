@@ -59,7 +59,7 @@ export default function Hero() {
             >
               <div className="flex gap-0.5">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={12} fill="#B85C38" color="#B85C38" />
+                  <Star key={i} size={12} fill="#9B1B1B" color="#9B1B1B" />
                 ))}
               </div>
               <span className="section-label text-white/70">Trusted Since 2010</span>
@@ -74,7 +74,7 @@ export default function Hero() {
             >
               Quality Fencing.
               <br />
-              <span style={{ color: "#D4714A" }}>Expert</span>
+              <span style={{ color: "#C62828" }}>Expert</span>
               <br />
               Installation.
             </h1>
@@ -98,7 +98,7 @@ export default function Hero() {
             >
               <button
                 onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-                className="btn-rust px-8 py-4 rounded font-semibold font-body text-base"
+                className="btn-forest px-8 py-4 rounded font-semibold font-body text-base"
               >
                 Contact Us for Free Estimate
               </button>

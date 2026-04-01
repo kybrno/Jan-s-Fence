@@ -114,7 +114,7 @@ export default function Process() {
         >
           <button
             onClick={() => document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="btn-rust px-10 py-4 rounded font-semibold font-body text-base"
+            className="btn-forest px-10 py-4 rounded font-semibold font-body text-base"
           >
             Contact Us for Free Estimate
           </button>

@@ -140,7 +140,7 @@ export default function Gallery() {
             <h2 className="font-display text-4xl lg:text-5xl font-bold text-stone-900 leading-tight">
               Projects We're
               <br />
-              <span style={{ color: "var(--color-rust)" }}>Proud Of</span>
+              <span style={{ color: "var(--color-forest)" }}>Proud Of</span>
             </h2>
             <p className="font-body text-stone-500 max-w-sm leading-relaxed">
               Every fence tells a story. Browse a selection of our recent installations across the region.

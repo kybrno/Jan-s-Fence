@@ -76,7 +76,7 @@ export default function Navbar() {
               ))}
               <a
                 href="tel:617-953-9487"
-                className="px-5 py-2.5 rounded text-sm font-semibold font-body text-white border border-white/30 hover:bg-white/10 transition-colors duration-200"
+                className="btn-forest px-5 py-2.5 rounded text-sm font-semibold font-body text-white transition-colors duration-200"
               >
                 Call 617-953-9487
               </a>
@@ -122,7 +122,7 @@ export default function Navbar() {
             ))}
             <a
               href="tel:617-953-9487"
-              className="mt-4 px-5 py-3 rounded text-center font-semibold font-body text-white bg-stone-700 hover:bg-stone-600 transition-colors duration-200"
+              className="mt-4 px-5 py-3 rounded text-center font-semibold font-body text-white btn-forest transition-colors duration-200"
             >
               Call 617-953-9487
             </a>
