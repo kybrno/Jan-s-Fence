@@ -18,7 +18,7 @@ const values = [
   {
     icon: Award,
     title: "10-Year Warranty",
-    desc: "We stand behind every installation with a 10-year installation warranty on all fences.",
+    desc: "We stand behind every installation with a 10-year installation warranty on all metal and vinyl fences.",
   },
   {
     icon: Clock,
@@ -80,7 +80,7 @@ export default function About() {
             </p>
 
             <p className="font-body text-stone-600 leading-relaxed mb-8">
-              The owner is directly involved in each project, from the initial estimate through installation, to make sure the work is done right the first time. We use quality materials, careful installation practices, and maintain clean job sites. Every fence comes with our 10-year installation warranty.
+              The owner is directly involved in each project, from the initial estimate through installation, to make sure the work is done right the first time. We use quality materials, careful installation practices, and maintain clean job sites. Every metal and vinyl fence comes with our 10-year installation warranty.
             </p>
 
             {/* Values grid */}

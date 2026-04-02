@@ -5,7 +5,7 @@
  */
 
 import { useEffect, useRef, useState } from "react";
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, User, MessageSquare, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Facebook, User, MessageSquare, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
 
 interface FormData {
@@ -262,17 +262,17 @@ export default function ContactFooter() {
                 />
               </div>
               <p className="font-body text-sm text-white/40 leading-relaxed max-w-xs">
-                Littleton's trusted fencing contractor since 2010. 30 years of experience, family-owned, 10-year warranty on all installations.
+                Littleton's trusted fencing contractor since 2010. 30 years of experience, family-owned, 10-year warranty on all metal and vinyl fences.
               </p>
               <div className="flex gap-3 mt-5">
-                {[Facebook, Instagram, Twitter].map((Icon, i) => (
-                  <button
-                    key={i}
-                    className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:border-white/30 transition-colors"
-                  >
-                    <Icon size={14} />
-                  </button>
-                ))}
+                <a
+                  href="https://www.facebook.com/people/Jans-Fence-Inc/100067796463427/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded-full border border-white/10 flex items-center justify-center text-white/40 hover:text-white hover:border-white/30 transition-colors"
+                >
+                  <Facebook size={14} />
+                </a>
               </div>
             </div>
 

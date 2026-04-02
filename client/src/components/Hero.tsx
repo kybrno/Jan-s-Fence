@@ -86,7 +86,7 @@ export default function Hero() {
               }`}
               style={{ transitionDelay: "240ms" }}
             >
-              Vinyl, wood, and metal fencing for homes and businesses in and around Littleton, MA. 30 years of experience, owner-operated, with a 10-year installation warranty on all work.
+              Vinyl, wood, and metal fencing for homes and businesses in and around Littleton, MA. 30 years of experience, owner-operated, with a 10-year installation warranty on all metal and vinyl fences.
             </p>
 
             {/* CTAs */}
